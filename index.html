@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Js- Calculando el total</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+  <!-- Local Css -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+
+  <article class="main-container">
+    <div class="product-card">
+      <header>
+        <p>Handcrafted by Dario Urdaneta</p>
+        <p>Desafio 1 - JS</p>
+        <figure>
+          <img src="./assets/img/product.webp" alt="telefono marca iphone color negro">
+        </figure>
+        <h2>Cappuccino Coffe Cup</h2>
+        <span>CLP 19.990</span>
+      </header>
+      <br>
+    </div>
+    <form id="user-form">
+      <div class="main-card">
+        <div class="user-pick">
+          <label for="quantity">Quantity:</label>
+          <input type="number" name="quantity" id="quantity" value="1" min="1" max="20">
+        </div>
+        <div class="user-colors">
+          <label for="color">Color:</label>
+          <input type="color" name="color" id="color" list="presets" value="#94ADD7">
+          <datalist id="color-gama">
+            <option value="#dce4a8">Green</option>
+            <option value="#ACFADF">Light Green</option>
+            <option value="#94ADD7">Purple</option>
+            <option value="#7C73C0">Violet</option>
+          </datalist>
+        </div>
+      </div>
+      <br>
+      <button id="btn-total" onclick="calculator(event)">
+        Calculate
+      </button>
+    </form>
+    <hr>
+    <footer id="user-total">
+      <p>Total: <span id="total"></span></p>
+      <p>Quantity: <span id="qty-final"></span></p>
+      <div class="color-container">
+        <p>Color:</p>
+        <div class="color-box" id="user-color"></div>
+      </div>
+    </footer>
+  </article>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
