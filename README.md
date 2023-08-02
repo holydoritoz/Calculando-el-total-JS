@@ -3,6 +3,7 @@
 
 
 🟢DEMO LIVE
+ https://holydoritoz.github.io/Calculando-el-total-JS/
 
 
-![final_result](https://github.com/holydoritoz/Calculando-el-total-JS/assets/54608904/858de185-d9b6-4ec2-ab6c-884a58519974)
+![final_result](https://github.com/holydoritoz/Calculando-el-total-JS/assets/54608904/cd837309-47b8-4a41-b7a6-8a813fa8da59)
